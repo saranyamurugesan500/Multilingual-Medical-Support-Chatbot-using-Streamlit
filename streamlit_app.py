@@ -1,6 +1,6 @@
 import streamlit as st
 import torch
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 from langdetect import detect
 import warnings
 warnings.filterwarnings("ignore")

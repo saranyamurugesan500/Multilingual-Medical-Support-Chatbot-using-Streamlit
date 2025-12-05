@@ -1,4 +1,11 @@
-# 🩺 Multilingual Medical Support Chatbot
+## 🧠 Model Instructions
 
-## 🎥 Demo Video
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+**Option 1: Local Training (Recommended)**
+1. Run `medicalchatbot.ipynb` → Creates `./medical-t5-final/`
+2. `streamlit run app.py`
+
+**Option 2: Hugging Face Hub** (Optional)
+Model: your-username/medical-t5-chatbot
+
+## 📱 Live Demo
+[HF Spaces](https://huggingface.co/spaces/YOURNAME/medical-chatbot)
